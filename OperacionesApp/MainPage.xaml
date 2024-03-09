@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp.MainPage"
+                xmlns:local="clr-namespace:OperacionesApp.Pages">
+
+
+    <local:Cuadrado Title="Cuadrado" IconImageSource="cuadro.svg">
+     
+        </local:Cuadrado>
+        
+    <local:Circulo Title="Circulo" IconImageSource="circulo.svg">
+        
+    </local:Circulo>
+    
+    <local:Rectangulo Title="Rectangulo" IconImageSource="rectangulo.svg">
+        
+    </local:Rectangulo>
+
+
+</TabbedPage>
